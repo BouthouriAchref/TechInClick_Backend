@@ -1,0 +1,28 @@
+{
+  "name": "techinclick",
+  "version": "1.0.0",
+  "description": "techinclick_backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BouthouriAchref/TechInClick_Backend.git"
+  },
+  "author": "Achref Bouthouri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BouthouriAchref/TechInClick_Backend/issues"
+  },
+  "homepage": "https://github.com/BouthouriAchref/TechInClick_Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "core-js": "^3.23.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "morgan": "^1.10.0"
+  }
+}
